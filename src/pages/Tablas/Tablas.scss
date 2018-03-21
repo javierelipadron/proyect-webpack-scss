@@ -1,0 +1,35 @@
+.tab-table-data thead>tr {
+  background-color: #f9fafc;
+  color: #174376;
+}
+
+.tab-table-data thead>tr th {
+  font-weight: 500;
+  border: 1px solid rgba(23,67,118,.05);
+}
+
+.tab-table-data tbody tr {
+  color: #174376;
+}
+
+.tab-table-data tbody tr td {
+  padding: 1em .5em;
+  border: 1px solid rgba(23,67,118,.05);
+}
+
+.tab-table-data .leyend-accounts>td>h4{
+  font-weight: 600;
+}
+
+.tab-table-data .text-span-italic h5 {
+  font-weight: 300;
+}
+
+.tab-table-data tbody .bonus-list-users li {
+  padding: 0 10px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 3px;
+  font-weight: 500;
+}

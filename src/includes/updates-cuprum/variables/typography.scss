@@ -1,0 +1,33 @@
+//@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500,700');
+
+h1, h2, h3, h4, h5, span{
+  font-weight: 400;
+  color: $color_azul;
+}
+
+p {
+  color: #6a7c88;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+$size_1: 0.75rem;
+$size_2: 0.875rem;
+$size_3: 1rem;
+$size_4: 1.125rem;
+$size_5: 1.25rem;
+$size_6: 1.5rem;
+$size_7: 1.75rem;
+$size_8: 2rem;
+$size_9: 2.25rem;
+$size_10: 2.625rem;
+$size_11: 3rem;
+$size_12: 3.375rem;
+$size_13: 3.75rem;
+$size_14: 4.25rem;
+$size_15: 4.75rem;
+$size_16: 5.25rem;
+$size_17: 5.75rem;

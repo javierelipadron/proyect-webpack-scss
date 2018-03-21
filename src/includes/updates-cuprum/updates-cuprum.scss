@@ -1,0 +1,18 @@
+$color_azul: #174376;
+$color_naranjo: #F3963F;
+$color_verde: #4ace8a;
+$color_gris: #c7c7c7;
+$color_blanco: #FFFFFF;
+$color_rojo: #ee3823;
+$color_neutral: #66615B;
+
+@import 'variables/body.scss';
+@import 'variables/typography.scss';
+@import 'variables/buttons.scss';
+@import 'variables/forms.scss';
+@import 'variables/nav.scss';
+@import 'variables/panel.scss';
+@import 'variables/alert.scss';
+@import 'variables/highlight.scss';
+@import 'variables/loaders.scss';
+@import 'variables/icons.scss';

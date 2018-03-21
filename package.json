@@ -1,0 +1,43 @@
+{
+  "name": "bootstrap-compiled",
+  "description": "Bootstrap Compiled",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "compiled-bootstrap": "rimraf compiled-bootstrap && webpack --config config/webpack.compiledBootstrap.js --progress --hide-modules",
+    "compiled-cuprum": "rimraf compiled-cuprum && webpack --config config/webpack.compiledCuprum.js --progress --hide-modules",
+    "predeploy": "npm run build",
+    "deploy": "surge --project . --domain vue-2-simple-routing-example.surge.sh"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bootstrap-vue": "^1.4.1",
+    "v-clipboard": "^1.0.4",
+    "vue": "^2.3.3",
+    "vue-class-component": "^6.1.2",
+    "vue-loader": "^13.6.1",
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^4.0.0",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "copy-webpack-plugin": "^4.3.1",
+    "surge": "^0.19.0",
+    "ts-loader": "^3.4.0",
+    "typescript": "^2.7.1",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

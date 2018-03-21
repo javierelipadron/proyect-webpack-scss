@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1268px" height="926px" viewBox="0 0 1268 926" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 4 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="12.609296%" y1="85.0974453%" x2="116.590289%" y2="-4.27755407%" id="linearGradient-1">
+            <stop stop-color="#2C2A79" offset="0%"></stop>
+            <stop stop-color="#EE4037" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="93.200985%" y1="11.418211%" x2="12.609296%" y2="85.0974453%" id="linearGradient-2">
+            <stop stop-color="#2C2A79" offset="0%"></stop>
+            <stop stop-color="#EE4037" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0 0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Artboard-4-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(54.000000, 129.000000)" fill="url(#linearGradient-1)">
+            <path d="M50.1701911,760 C17.9841247,691.3037 0,614.62126 0,533.73654 C0,238.961989 238.856086,0 533.5,0 C828.143914,0 1067,238.961989 1067,533.73654 C1067,614.62126 1049.01588,691.3037 1016.82981,760 L50.1701785,759.999973 Z" id="Combined-Shape"></path>
+        </g>
+        <circle id="Oval-Copy-2" fill="url(#linearGradient-2)" filter="url(#filter-3)" cx="1033.5" cy="149.5" r="82.5"></circle>
+    </g>
+</svg>

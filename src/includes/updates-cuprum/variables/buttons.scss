@@ -1,0 +1,189 @@
+// Tamaños botones
+.btn-small-extra {
+  padding: 5px 12px;
+  font-size: 12px;
+}
+
+.btn-small {
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.btn-regular {
+  padding: 9px 18px;
+  font-size: 16px;
+}
+
+.btn-large {
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+// Border radius botones
+.btn-regular-radius,
+.btn-xs-radius,
+.btn-df-radius,
+.btn-sm-radius,
+.btn-lg-radius{
+  border-radius: 30px;
+  //box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+}
+
+// Botones colores
+.btn-standard {
+  color: $color_gris;
+  border-color: $color_gris;
+  &:hover{
+    color: $color_gris;
+    background-color: #fafafa;
+    border-color: $color_gris;
+  }
+}
+
+.btn-primary {
+  background-color: $color_naranjo;
+  border-color: $color_naranjo;
+  &:hover, &:focus, &:active{
+    background-color: #e27f21 !important;
+    border-color: #e27f21 !important;
+    outline: none;
+  }
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border-color: $color_naranjo;
+  color: $color_naranjo;
+  &:hover, &:focus, &:active{
+    color: $color_blanco;
+    background-color: #e27f21 !important;
+    border-color: #e27f21 !important;
+    outline: none;
+  }
+}
+
+.btn-secondary {
+  background-color: $color_azul;
+  border-color: #133761;
+  &:hover, &:focus{
+    color: #FFFFFF;
+    background-color: #0d2542;
+    border-color: #0d2542;
+  }
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  color: $color_azul;
+  border-color: #133761;
+  &:hover, &:focus{
+    color: #FFFFFF;
+    background-color: #0d2542;
+    border-color: #0d2542;
+  }
+}
+
+.btn-third {
+  background-color: $color_verde;
+  border-color: #46c383;
+  &:hover, &:focus{
+    color: #FFFFFF;
+    background-color: #38b574;
+    border-color: #38b574;
+  }
+}
+
+.btn-outline-third {
+  background-color: transparent;
+  color: $color_verde;
+  border-color: #46c383;
+  &:hover, &:focus{
+    color: #FFFFFF;
+    background-color: #38b574;
+    border-color: #38b574;
+  }
+}
+
+.btn-fourth {
+  background-color: $color_rojo;
+  border-color: #dc3421;
+  &:hover, &:focus{
+    color: #FFFFFF;
+    background-color: #c72c1a;
+    border-color: #c72c1a;
+  }
+}
+
+.btn-outline-fourth {
+  background-color: transparent;
+  color: $color_rojo;
+  border-color: #dc3421;
+  &:hover, &:focus{
+    color: #FFFFFF;
+    background-color: #c72c1a;
+    border-color: #c72c1a;
+  }
+}
+
+.btn-fifth{
+  background-color: $color_neutral;
+  color: $color_blanco;
+  border-color: $color_neutral;
+  &:hover, &:focus{
+    color: #FFFFFF;
+    background-color: #423f3b;
+    border-color: #423f3b;
+  }
+}
+
+.btn-outline-fifth{
+  background-color: transparent;
+  color: $color_neutral;
+  border-color: $color_neutral;
+  &:hover, &:focus{
+    color: #FFFFFF;
+    background-color: $color_neutral;
+    border-color: $color_neutral;
+  }
+}
+
+.btn-link {
+  color: #174376;
+}
+
+.btn-link,
+.btn-standard {
+  &:focus{
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-third,
+.btn-fourth,
+.btn-fifth {
+  color: #FFFFFF;
+  transition: all ease .3s;
+  font-weight: 400;
+  &:hover, &:focus{
+    box-shadow: none;
+    outline: none !important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+}
+
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-third,
+.btn-outline-fourth,
+.btn-outline-fifth {
+  transition: all ease .3s;
+  font-weight: 400;
+  &:hover, &:focus{
+    box-shadow: none;
+    outline: none !important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+}

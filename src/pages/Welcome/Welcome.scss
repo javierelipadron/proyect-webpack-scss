@@ -1,0 +1,68 @@
+.bg-general {
+  background: #EE4037 no-repeat center bottom;
+  background-image: linear-gradient(to right,#EE4037 0,#252AC8 100%);
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  & .content-home {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    z-index: 2;
+    margin: 15% auto;
+    & h1 {
+      font-size: 6em;
+      font-weight: lighter;
+      color: #FFFFFF;
+      & span {
+        font-weight: 500;
+        color: #FFFFFF;
+      }
+    }
+    & p {
+      color: #FFFFFF;
+      width: 60%;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 300;
+      margin: 1em 0;
+    }
+    .btn-blanco {
+      background-color: white;
+      color: #753592;
+      transition: ease .3s all;
+      &:hover{
+        background-color: #e2e2e2;
+        outline: none;
+        box-shadow: none;
+        box-shadow: 0 14px 30px rgba(0,0,0,0.15);
+      }
+    }
+  }
+  .logoCover {
+    position: absolute;
+    bottom: -50px;
+    z-index: 0;
+    left: -110px;
+    width: 70%;
+  }
+  .logoFooter {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 160px;
+    bottom: 6em;
+  }
+}

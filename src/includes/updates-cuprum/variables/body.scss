@@ -1,0 +1,23 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body{
+  background-color: #FFFFFF;
+  color: #434343;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  //font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+::selection {
+  background: #2e4ede;
+  color: #FFFFFF;
+}

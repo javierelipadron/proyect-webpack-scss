@@ -1,0 +1,138 @@
+$color_azul: #174376;
+$color_naranjo: #F3963F;
+$color_gris: #d2d2d2;
+$color_blanco: #FFFFFF;
+$color_rojo: #ee3823;
+
+/*  Estilos Diagramación */
+.container-wrap {
+  padding-bottom: 6em;
+}
+
+.content-wrap {
+  & .nav-lateral {
+    background-color: #F2F2FF;
+    border-right: solid 1px #e7e7e7;
+    width: 15%;
+    float: left;
+    position: fixed;
+    height: 100vh;
+    overflow-x: auto;
+    padding: 10px;
+    & .logo-radius {
+      border-radius: 50px;
+      width: 120px;
+      height: 120px;
+      display: flex;
+      text-align: center;
+      margin: 20px auto;
+    }
+    & .menu-lists {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      padding-top: 2em;
+      border-top: 1px solid #e7e7e7;
+      & li {
+        padding: 10px;
+        text-align: center;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  & .nav-content {
+    width: 85%;
+    float: right;
+  }
+}
+
+.wrapper-section{
+  background: linear-gradient(60deg, #2f4386 0, #1a3ac5 50%, #2e4ede 50%, #123c9c 100%);
+  padding: 5% 0;
+  position: relative;
+  & span {
+    color: #FFFFFF;
+  }
+  & h2 {
+    color:  #FFFFFF;
+    font-size: 4.5em;
+    margin: 0;
+    line-height: 1;
+  }
+  .border-bootom {
+    position: absolute;
+    width: 100px;
+    height: 6px;
+    background-color: $color_naranjo;
+    bottom: 0;
+    margin: 4rem 15% 0;
+  }
+}
+
+.content-header {
+  margin: 0 12.5%;
+  position: relative;
+  & .icon-esfera-top, .icon-esfera-left, .icon-esfera-right {
+    position: absolute;
+    background: #EE4037 no-repeat center bottom;
+    background-image: linear-gradient(to right,#EE4037 0,#252AC8 100%);
+    background-size: 100%;
+    border-radius: 50px;
+  }
+  & .icon-esfera-top {
+    width: 50px;
+    height: 50px;
+    top: -40px;
+    left: 20em;
+
+  }
+  & .icon-esfera-left {
+    width: 20px;
+    height: 20px;
+    left: -60px;
+    top:20px;
+  }
+  & .icon-esfera-right {
+    width: 40px;
+    height: 40px;
+    right: 0;
+    bottom: -30px;
+  }
+}
+
+.content-container {
+  margin: 4rem 12.5% 0;
+  & .header-top {
+    h3 {
+      font-size: 2em;
+    }
+  }
+}
+
+.span-code {
+  color: $color_rojo;
+  background-color: #fafafa;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.content-example {
+  margin: 2rem 0 0;
+  & .nav-tabs li > a{
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+.button-copied {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.activeMenu {
+  color: #174376;
+  font-weight: 400;
+}
